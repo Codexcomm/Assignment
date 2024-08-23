@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>  
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="OLAMIDE ADEOLA OSIBAJO">
+    <meta name="description" content="An App Where You Can Calculate Your Loans">
+    <meta name="keywords" content=" LOAN BANK MORTGAGE">
+    <title>LOAN CALCULATOR</title>
+    <link rel="shortcut icon" href="icon.png">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+<header>
+          <span class="brand">
+               <img src="icon.png" alt="" width="40">
+               <b>BANK-LOAN</b>
+          </span>
+          <nav>
+                 <a href="">Home</a>
+                 <a href="">About us</a>
+                 <a href="">Borrow</a>
+                 <a href="">Pay</a>
+                 <a href="">Contact us</a>
+          </nav>
+</header>
+<main>
+       <form>
+                   <p>Interest Calculator</p>
+
+                   <span class="rate">Rate: <small>20%</small></span>
+                   <input type="number" placeholder="Borrowed Amount" class="borrowed-amount">
+                   <input type="number" placeholder="Payment Duration" class="duration">
+
+                   <div>
+                        <button class="calc-btn">Calculate</button>
+                        <button type="reset" class="reset-btn">Reset</button>
+                   </div>
+
+                  <h1 class="result">Interest: ₦<small class="interest">0.0</small> </h1>
+                  <h1 class="result">Amount: ₦<small class="amount">0.0</small> </h1>
+       </form>
+</main>
+<footer>
+     <p>&copy; Copyright 2024. All rights reserved. Powered by OLAMIDE ADEOLA OSIBAJO.</p>
+</footer>
+
+
+<script src="index.js"></script>
+</body>
+</html>
